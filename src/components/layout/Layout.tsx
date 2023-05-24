@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from "react";
 import Head from "next/head";
 
-import Header from "./header/Header";
+import Header from "./header/HeaderTwo";
 import Sidebar from "./sidebar/Sidebar";
 import Footer from "./footer/Footer";
 import Search from "./search/Search";
