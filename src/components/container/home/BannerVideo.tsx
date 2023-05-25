@@ -28,9 +28,9 @@ const BannerVideo = () => {
           </a>
         </div>
         <Slider {...settings} className="slider banner-slider banner-custom">
-          <div className="slide-item slide-item-one text-center"></div>
-          <div className="slide-item slide-item-two text-center"></div>
-          <div className="slide-item slide-item-three text-center"></div>
+          <div><Image src={require("public/images/slide/1.png")} alt="Image 1" /></div>
+          <div><Image src={require("public/images/slide/2.png")} alt="Image 1" /></div>
+          <div><Image src={require("public/images/slide/3.png")} alt="Image 1" /></div>
         </Slider>
         <div className="banner-call">Call us: +1 698 000 420</div>
         <div className="banner-slider-control">
