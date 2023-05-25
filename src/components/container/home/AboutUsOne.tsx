@@ -26,40 +26,8 @@ const AboutUsOne = () => {
               data-aos-delay="300"
             >
               <div className="about-thumb-area pe-0 pb-0">
-                <Image className="about-img-1 mb-3" src={one} alt="img" />
-                <Image className="about-img-1" src={two} alt="img" />
-                <button
-                  className="video-play-btn-inner"
-                  onClick={() => setVideoActive(true)}
-                >
-                  <Image
-                    className="about-img-video rotation_image"
-                    src={four}
-                    alt="img"
-                  />
-                </button>
-                <div
-                  className={
-                    (videoActive ? " video-zoom-in" : " ") + " video-backdrop"
-                  }
-                  onClick={() => setVideoActive(false)}
-                >
-                  <div className="video-inner">
-                    <div
-                      className="video-container"
-                      onClick={(e: any) => e.stopPropagation()}
-                    >
-                      {videoActive && <YoutubeEmbed embedId="RvreULjnzFo" />}
-                      <button
-                        aria-label="close video popup"
-                        className="close-video-popup"
-                        onClick={() => setVideoActive(false)}
-                      >
-                        <MdOutlineClose />
-                      </button>
-                    </div>
-                  </div>
-                </div>
+              <Image src={require("public/images/about/1-1.png")} alt="Image 1" />
+              <Image src={require("public/images/about/1-3.png")} alt="Image 1" />
               </div>
             </div>
             <div
@@ -73,7 +41,7 @@ const AboutUsOne = () => {
                 <h2 className="title mb-4">
                   We believe that selecting the right financial service firm
                 </h2>
-                <Image src={three} alt="img" />
+                <Image src={require("public/images/about/1-2.png")} alt="Image 1" />
                 <p className="content">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat

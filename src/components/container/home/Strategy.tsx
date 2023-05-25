@@ -25,7 +25,7 @@ const Strategy = () => {
                 data-aos-duration="1500"
                 data-aos-delay="150"
               >
-                We will provide you with the best strategy
+                We, at StratHouse, provide you with the best strategy
               </h2>
               <p
                 className="content "
@@ -33,28 +33,24 @@ const Strategy = () => {
                 data-aos-duration="1500"
                 data-aos-delay="200"
               >
-                These cases are perfectly simple and easy to distinguish. In a
-                free hour, when our power of choice is untrammelled and when
-                nothing prevents our being able to do what we like best, every
-                pleasure is to be welcomed and
+                StratHouse is a leading consultant agency specializing in providing strategic planning and advisory services. Our team of experts is dedicated to helping businesses achieve their goals and maximize their success. With our extensive experience and industry knowledge, we deliver tailored strategies that drive growth and deliver exceptional results.
               </p>
               <ul
-                className="single-list-inner ps-3 mt-4 mb-4 "
-                data-aos="fade-up"
-                data-aos-duration="1500"
-                data-ao-delay="250s"
-              >
-                <li>
-                  <strong>692%</strong> Campaign ROI Exceeds
-                </li>
-                <li>
-                  <strong>8x</strong> the number of keywords sending traffic to
-                  your site
-                </li>
-                <li>
-                  <strong>296%</strong> increase in organic traffic
-                </li>
-              </ul>
+  className="single-list-inner ps-3 mt-4 mb-4 "
+  data-aos="fade-up"
+  data-aos-duration="1500"
+  data-ao-delay="250s"
+>
+  <li>
+    <strong>Proven Results:</strong> Our strategic solutions have consistently delivered exceptional outcomes, including a campaign ROI that exceeds 692%.
+  </li>
+  <li>
+    <strong>Increased Visibility:</strong> By leveraging our expertise, clients have experienced an 8x increase in the number of keywords driving traffic to their websites.
+  </li>
+  <li>
+    <strong>Organic Growth:</strong> We have achieved a remarkable 296% increase in organic traffic for our clients through our strategic consulting services.
+  </li>
+</ul>
               <Image
                 className=""
                 data-aos="fade-up"

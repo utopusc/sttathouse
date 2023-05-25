@@ -1,17 +1,13 @@
 import React from "react";
-
 import Image from "next/image";
-
 import Link from "next/link";
-
 import one from "public/images/icon/13.svg";
 import two from "public/images/icon/14.svg";
 import three from "public/images/icon/15.svg";
 import four from "public/images/icon/16.svg";
-
 import five from "public/images/icon/17.svg";
 
-const Tax = () => {
+const ConsultingServices = () => {
   return (
     <div className="intro-area pd-top-90 mt-md-4">
       <div className="container">
@@ -29,13 +25,8 @@ const Tax = () => {
               <div className="details">
                 <h4>Inheritance Tax</h4>
                 <p>
-                  we will give you a complete account of the system, and expound
-                  the actual
+                  We provide comprehensive assistance with inheritance tax matters, explaining the system and guiding you through the process.
                 </p>
-                <Link className="read-more-text" href="/service-details">
-                  <span className="hide-text">Service details</span>{" "}
-                  <Image src={five} alt="Image" />
-                </Link>
               </div>
             </div>
           </div>
@@ -52,13 +43,9 @@ const Tax = () => {
               <div className="details">
                 <h4>International Tax</h4>
                 <p>
-                  we will give you a complete account of the system, and expound
-                  the actual
+                  Our expert team specializes in international tax regulations, ensuring compliance and providing strategic advice for your business.
                 </p>
-                <Link className="read-more-text" href="/service-details">
-                  <span className="hide-text">Service details</span>{" "}
-                  <Image src={five} alt="Image" />
-                </Link>
+
               </div>
             </div>
           </div>
@@ -75,13 +62,8 @@ const Tax = () => {
               <div className="details">
                 <h4>Large Corporate</h4>
                 <p>
-                  we will give you a complete account of the system, and expound
-                  the actual
+                  We offer comprehensive tax services tailored for large corporate entities, addressing their specific needs and ensuring compliance.
                 </p>
-                <Link className="read-more-text" href="/service-details">
-                  <span className="hide-text">Service details</span>{" "}
-                  <Image src={five} alt="Image" />
-                </Link>
               </div>
             </div>
           </div>
@@ -94,17 +76,12 @@ const Tax = () => {
             <div className="intro-area-inner">
               <div className="thumb mb-4">
                 <Image src={four} alt="Image" />
-              </div>
+              </div>     
               <div className="details">
                 <h4>Personal Tax</h4>
                 <p>
-                  we will give you a complete account of the system, and expound
-                  the actual
+                  Our team provides personalized tax services, guiding individuals through their tax obligations and maximizing their financial benefits.
                 </p>
-                <Link className="read-more-text" href="/service-details">
-                  <span className="hide-text">Service details</span>{" "}
-                  <Image src={five} alt="Image" />
-                </Link>
               </div>
             </div>
           </div>
@@ -114,4 +91,4 @@ const Tax = () => {
   );
 };
 
-export default Tax;
+export default ConsultingServices;
